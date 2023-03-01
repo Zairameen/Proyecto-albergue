@@ -13,13 +13,26 @@
 .imagen1{
 
 }
-
+@media (min-width:391px){
 .caracteristicas{
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+    margin:auto;
+    padding:20px;
+    display:flex;
+    justify-content:space-around;
+    text-align:justify;
+}
+}
+@media (max-width: 390px) {
+    .caracteristicas {
+        display:flex;
+        flex-direction:column; /* Apila los contenedores verticalmente cuando la pantalla sea de 390px o menos */
+        align-items:center; /* Centra los contenedores horizontalmente cuando la pantalla sea de 390px o menos */
+        text-align: justify;
+    }
+}
+.title_carac{
+    margin-bottom: 20px;
 }
 .imagen_caracteristicas{
     margin: 15px;
@@ -31,7 +44,7 @@
 }
 img {
     max-width: 100%;
-    height: auto;
+    
   }
 
 .imagen2{
