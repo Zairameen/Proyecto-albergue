@@ -1,17 +1,6 @@
-.menu{
 
-}
-
-.hero{
-
-}
-
-.ventajas{
-
-}
-
-.imagen1{
-
+.titulo_carac{
+    margin: auto;
 }
 @media (min-width:391px){
 .caracteristicas{
@@ -26,15 +15,33 @@
 @media (max-width: 390px) {
     .caracteristicas {
         display:flex;
-        flex-direction:column; /* Apila los contenedores verticalmente cuando la pantalla sea de 390px o menos */
-        align-items:center; /* Centra los contenedores horizontalmente cuando la pantalla sea de 390px o menos */
+        flex-direction:column;
+        align-items:center;
         text-align: justify;
     }
 }
 .title_carac{
     margin-bottom: 20px;
 }
-.imagen_caracteristicas{
+.imagen_caracteristicas img{
+    margin: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;   
+}
+
+
+.imagen2{
+
+}
+.imagen2_1{
     margin: 15px;
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -42,15 +49,6 @@
     flex-direction: column;
     align-items: center;
 }
-img {
-    max-width: 100%;
-    
-  }
-
-.imagen2{
-
-}
-
 .tarjetas{
     display: flex;
     flex-direction: row;
