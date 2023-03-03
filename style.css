@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+   
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -69,46 +69,6 @@ nav>a{
     color: #CCFF9D;
 }
 
-
-
-@media screen and (max-width:600px){
-    .tablet-hidden{
-        display:none;
-    }
-}
-
-@media screen and (min-width:601px) and (max-width:942px){
-   .tablet-hidden{
-        display: none;
-   }
-}
-
-@media screen and (min-width:943px){
-    a.burger{
-        display: none;
-    }
-}
-
-.hero{
-
-}
-
-.ventajas{
-
-}
-
-.imagen1{
-
-}
-
-.caracteristicas{
-
-}
-
-.imagen2{
-
-}
-
 .tarjetas{
     display: flex;
     flex-direction: column;
@@ -145,19 +105,21 @@ input[type=text] {
 .contactoAC{
     gap: 24px;
 }
-
-a:link, a:visited {
+.boton{
+    display: flex;
+}
+a.boton:link, a.boton:visited {
     background-color:#316B3A;
     color: white;
     padding: 17px 51px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
+}
   
-  a:hover, a:active {
+a.boton:hover, a.boton:active {
     background-color: green;
-  }
+}
 
 @media screen and (max-width:600px){
     .actionCall{
@@ -178,6 +140,9 @@ a:link, a:visited {
     .textoAC{
         margin-left: 0px;
     }
+    .tablet-hidden{
+        display:none;
+    }
 }
 
 @media screen and (min-width:601px) {
@@ -194,6 +159,10 @@ a:link, a:visited {
         display: flex;
         flex-direction: row;
     }
+
+    .tablet-hidden{
+        display: none;
+   }
 }
 
 @media screen and (min-width:943px){
@@ -213,5 +182,9 @@ a:link, a:visited {
         display: flex;
         flex-direction: row;
         width: 50%;
+    }
+
+    a.burger{
+        display: none;
     }
 }
