@@ -2,7 +2,7 @@
 
 .tarjetas{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 24px;
 }
@@ -88,6 +88,7 @@ a:link, a:visited {
 }
 
 @media screen and (min-width:943px){
+    
     .actionCall{
         display: flex;
         flex-direction: row;
