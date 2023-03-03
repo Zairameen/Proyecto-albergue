@@ -55,6 +55,10 @@ a.tablet-hidden{
     text-decoration: none;
 }
 
+a.tablet-hidden.registro{
+    color: #2B2B2B;
+}
+
 .login {
     color: #CCFF9D;
     padding: 8px;
