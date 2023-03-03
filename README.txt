@@ -1,5 +1,5 @@
-Verde clarito -> #BCBF56
-Verde oscurito -> #6D8C3F
+Verde clarito -> #CCFF9D
+Verde oscurito -> #316B3A
 Blanco -> #FFFFFF
 Gris clarito -> #AFAFAF
 Gris oscurito -> #797979
