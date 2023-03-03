@@ -1,38 +1,42 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
-div.imagen2{
-    margin: 0;
-    margin-left: 0;
-}
-.titulo_carac{
-    
-}
-@media (min-width:391px){
+
+@media (min-width:943px) {
     .caracteristicas{
-        max-width: 800px;
-        margin:auto;
+        
+        margin: 40px;;
         padding:20px;
         display:flex;
         justify-content:space-around;
-        text-align:justify;
+        
         background-color:#FFFFFF;
         column-gap: 15px;
     }
 }
-@media (max-width: 390px) {
+@media (min-width:601px) and (max-width:942px){
+    .caracteristicas{
+        margin: 40px;;
+        padding:20px;
+        display:flex;
+        justify-content:space-around;
+        background-color:#FFFFFF;
+        column-gap: 15px;
+    }
+}
+@media (max-width: 600px)  {
     .caracteristicas {
         display:flex;
         flex-direction:column;
         align-items:center;
-        text-align: justify;
+        padding: 20px;
         
     }
 }
-.title_carac{
-    margin-bottom: 20px;
+.p{
+    align-items:center;
 }
 .imagen_caracteristicas img{
     margin: 15px;
@@ -41,30 +45,33 @@ div.imagen2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 90%;
-    background-repeat: no-repeat;
+    width: 70%;
+    height: auto;
+    
     background-position: 50%;
-    border-radius: 50%;
+    border-radius: 70%;
     background-size: 100% auto;
      
 }
 @media (min-width:391px){
 .imagen2{
-    max-width: 800px;
     margin:auto;
     padding:20px;
     display:flex;
     justify-content:space-around;
     text-align:justify;
     background-color: #CCFF9D;
+    column-gap: 15px;
 }
 }
 @media (max-width:390px){
     .imagen2{
             display:flex;
-            flex-direction:column;
+            flex-direction:column-reverse;
             align-items:center;
             text-align: justify;
+            padding: 20px;
+            background-color: #CCFF9D;
     }
 }
 .imagen2_1 img{
