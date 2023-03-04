@@ -1,8 +1,11 @@
 * {
-   
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
 }
 #logo {
     width: 64px;
@@ -16,6 +19,10 @@
     background-color: #3E3E3E;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 12px;
+}
+
+nav>a{
+    margin-right: 20px;
 }
 
 .izquierda {
@@ -53,6 +60,10 @@ a.tablet-hidden{
     text-decoration: none;
 }
 
+a.tablet-hidden.registro{
+    color: #2B2B2B;
+}
+
 .login {
     color: #CCFF9D;
     padding: 8px;
@@ -69,6 +80,48 @@ a.tablet-hidden{
 }
 .icono{
     color: #CCFF9D;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 9;
+    width: 100%;
+    min-height: 500px;
+}
+.heroHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoHero{
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: -.02em;
+    color: #CCFF9D;
+}
+.videoHero{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.buttonHero{
+    margin-top: 8px;
+    align-self: center;
+    border: 1px solid #CCFF9D;
+    background-color: #CCFF9D;
+    color: #2B2B2B;
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
 }
 
 .tarjetas{
