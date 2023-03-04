@@ -11,6 +11,8 @@ nav{
     width: 64px;
 }
 
+
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -125,8 +127,36 @@ a.tablet-hidden.registro{
 .tarjetas{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 50px;
     gap: 24px;
+    align-items: center;
+}
+
+.cajaTarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    gap: 5px;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 1%;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.396), 0 6px 10px 0 rgba(0, 0, 0, 0.374);
+}
+
+.imgTarjeta{
+    width: 245px;
+    height: 250px;
+}
+
+.fichasTipo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
 
 .actionCall{
@@ -134,6 +164,7 @@ a.tablet-hidden.registro{
     gap: 30px;
     align-items: center;
     background-color: #CCFF9D;
+    padding: 50px;
 }
 
 input[type=text] {
@@ -143,9 +174,7 @@ input[type=text] {
     box-sizing: border-box;
   }
 
-.textoAC{
-    margin-left: 30px;
-}
+
 
 .cajaTextoAC{
     box-sizing: border-box;
@@ -173,8 +202,9 @@ a.boton:link, a.boton:visited {
 a.boton:hover, a.boton:active {
     background-color: green;
 }
-/* 
-@media screen and (max-width:600px){ */
+
+
+
     .actionCall{
         display: flex;
         flex-direction: column;
@@ -184,19 +214,20 @@ a.boton:hover, a.boton:active {
         text-align: center;
     }
 
+    .textoTarj{
+        text-align: center;
+    }
+
     .contactoAC{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .textoAC{
-        margin-left: 0px;
-    }
     a.tablet-hidden{
         display:none;
     }
-/* } */
+
 
 @media screen and (min-width:601px) {
     .actionCall{
@@ -206,6 +237,12 @@ a.boton:hover, a.boton:active {
 
     .textoAC{
         text-align: left;
+        margin-left: 15px;
+    }
+
+    .textoTarj{
+        text-align: left;
+        margin-left: 15px;
     }
 
     .contactoAC{
@@ -226,6 +263,12 @@ a.boton:hover, a.boton:active {
     .textoAC{
         text-align: left;
         width: 50%;
+        margin-left: 30px;
+    }
+
+    .textoTarj{
+        text-align: left;
+        margin-left: 30px;
     }
 
     .contactoAC{
@@ -239,5 +282,9 @@ a.boton:hover, a.boton:active {
     }
     a.tablet-hidden{
         display: flex;
+    }
+
+    .fichasTipo{
+        flex-direction: row;
     }
 }
