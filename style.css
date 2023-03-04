@@ -312,8 +312,6 @@ a.boton:hover, a.boton:active {
     }
 }
 
-}
-
 @media screen and (min-width:943px){
     
     .actionCall{
@@ -372,5 +370,5 @@ a.boton:hover, a.boton:active {
         margin-bottom: 0;
         margin-left: 32px;
     }
-    
+
 }
