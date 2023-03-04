@@ -129,6 +129,7 @@ a.tablet-hidden.registro{
     flex-direction: column;
     padding: 50px;
     gap: 24px;
+    align-items: center;
 }
 
 .cajaTarjeta{
