@@ -129,7 +129,7 @@ a.tablet-hidden.registro{
     flex-direction: column;
     padding: 50px;
     gap: 24px;
-    align-items: center;
+    align-items: left;
 }
 
 .cajaTarjeta{
@@ -139,7 +139,7 @@ a.tablet-hidden.registro{
     width: 250px;
     gap: 5px;
     padding: 10px;
-    border: 1px;
+    border: 0px;
     border-style: solid;
     border-radius: 1%;
     height: 350px;
@@ -286,5 +286,6 @@ a.boton:hover, a.boton:active {
 
     .fichasTipo{
         flex-direction: row;
+        gap: 50px;
     }
 }
