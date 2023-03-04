@@ -227,7 +227,63 @@ a.boton:hover, a.boton:active {
     a.tablet-hidden{
         display:none;
     }
-
+    footer{
+        background-color: #2B2B2B;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Footer-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .textoFooter{
+        display: flex;
+        flex-direction: column;
+        color: #CCFF9D;
+    }
+    
+    .textoFooter div{
+        margin: 8px;
+    }
+    
+    #logoFooter img{
+        justify-self: flex-start;
+        width: 52px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    #iconosFooter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .iconosFooter{
+        padding: 8px;
+        margin-bottom: 12px;
+    }
+    
+    .footer-icon{
+        width: 32px;
+    }
+    
+    #correo{
+        color: #CCFF9D;
+    }
+    
+    #textoFooter1{
+        margin-top: 12px;
+    }
+    
+    #textoFooter2{
+        margin-bottom: 12px;
+    }
 
 @media screen and (min-width:601px) {
     .actionCall{
