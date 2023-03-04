@@ -306,6 +306,12 @@ a.boton:hover, a.boton:active {
         flex-direction: row;
     }
 
+    .textoFooter{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 }
 
 @media screen and (min-width:943px){
@@ -344,4 +350,27 @@ a.boton:hover, a.boton:active {
         flex-direction: row;
         gap: 50px;
     }
+
+    #Footer-1{
+        flex-direction: row;
+    }
+
+    #textoFooter1{
+        flex-direction: row;
+        order: 1;
+        margin-top: 0;
+        margin-right: 32px;
+    }
+
+    #logoFooter{
+        order: 2;
+    }
+
+    #textoFooter2{
+        flex-direction: row;
+        order: 3;
+        margin-bottom: 0;
+        margin-left: 32px;
+    }
+    
 }
