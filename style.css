@@ -169,7 +169,40 @@ a.tablet-hidden.registro{
   align-self: flex-start;
   justify-content: center;
 }
-
+#seccion2{
+    display: flex;
+    padding: 20px;
+    margin: 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCFF9D;
+   }
+   .conjImgTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  
+   }
+  
+   .textoImg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+   }
+  .imagen1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 15%;
+  }
 .tarjetas{
     display: flex;
     flex-direction: column;
@@ -427,4 +460,15 @@ a.boton:hover, a.boton:active {
         margin-left: 32px;
     }
 
+    .conjImgTxt{
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .textoImg{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+      }
 }
