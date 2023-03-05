@@ -199,7 +199,7 @@ a.tablet-hidden.registro{
   .imagen1{
     display: block;
     justify-content: center;
-    align-items: center;
+    
     max-width: 100%;
     margin-bottom: 15%;
   }
@@ -371,6 +371,43 @@ a.boton:hover, a.boton:active {
         margin-bottom: 8px;
     }
 
+    .titulo_caracteristicas{
+        text-align: center;
+    }
+    .imagen_caracteristicas img{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;     
+    }
+    .imagen1_1{
+        display: flex;
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .caracteristicas {
+        align-items:center;        
+    }
+    .imagen2{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:center;
+        text-align: center;
+        padding: 20px;
+        background-color: #CCFF9D;
+    }
+    .imagen2_1 img{
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+        
+    }
+
 @media screen and (min-width:601px) {
     .actionCall{
         display: flex;
@@ -399,6 +436,22 @@ a.boton:hover, a.boton:active {
     .ventaja{
     width: 45%;
    }
+   .caracteristicas{
+    margin: 40px;;
+    padding:20px;
+    display:flex;
+    justify-content:space-around;
+    column-gap: 15px;
+
+    }
+    .imagen2{
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    text-align: center;
+    padding: 20px;
+    background-color: #CCFF9D;
+}
 }
 
 @media screen and (min-width:943px){
@@ -471,4 +524,20 @@ a.boton:hover, a.boton:active {
         justify-content: center;
         align-items: center;
       }
+      .caracteristicas{
+        margin: 40px;;
+        padding:20px;
+        display:flex;
+        justify-content:space-around;
+        background-color:#FFFFFF;
+        column-gap: 15px;
+    }
+    .imagen2{
+        padding:20px;
+        display:flex;
+        justify-content:space-around;
+        background-color: #CCFF9D;
+        column-gap: 15px;
+        flex-direction: row;
+    }
 }
