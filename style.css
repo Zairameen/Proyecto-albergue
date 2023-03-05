@@ -122,6 +122,54 @@ a.tablet-hidden.registro{
     text-decoration: none;
 }
 
+#seccion1{
+  display: flex;
+  padding: 4px;
+  margin: 4px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .tituloS1{
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 4%;
+ }
+ .contVentajas{
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  
+ }
+.ventaja{
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  width: 100%;
+  padding: 14px;
+  text-align:left;
+  justify-content: center;
+}
+.botonS1{
+  margin-top: 2%;
+  display: flex;
+  border-radius: 8px;
+  border-color: #316B3A;
+  padding: 10px;
+  background-color: transparent;
+  color: #316B3A;
+  align-self: flex-start;
+  justify-content: center;
+}
+
 .tarjetas{
     display: flex;
     flex-direction: column;
@@ -315,6 +363,9 @@ a.boton:hover, a.boton:active {
         display: flex;
         flex-direction: row;
     }
+    .ventaja{
+    width: 45%;
+   }
 }
 
 @media screen and (min-width:943px){
