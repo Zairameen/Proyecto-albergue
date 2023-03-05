@@ -460,4 +460,15 @@ a.boton:hover, a.boton:active {
         margin-left: 32px;
     }
 
+    .conjImgTxt{
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .textoImg{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+      }
 }
